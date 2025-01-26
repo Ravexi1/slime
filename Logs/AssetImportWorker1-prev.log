@@ -1,0 +1,1264 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16290 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/myfirstgame/firstgame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52469
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/myfirstgame/firstgame
+D:/myfirstgame/firstgame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5208]  Target information:
+
+Player connection [5208]  * "[IP] 192.168.1.177 [Port] 0 [Flags] 2 [Guid] 3817780390 [EditorId] 3817780390 [Version] 1048832 [Id] WindowsEditor(7,WIN-3MTVV4T7Q07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path D:/unity/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/myfirstgame/firstgame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6029 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/unity/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017265 seconds.
+- Loaded All Assemblies, in  0.912 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (291ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.022 seconds
+Refreshing native plugins compatible for Editor in 7.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.969 seconds
+Domain Reload Profiling: 3957ms
+	BeginReloadAssembly (339ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1485ms)
+		LoadAssemblies (1109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (595ms)
+			TypeCache.Refresh (442ms)
+				TypeCache.ScanAssembly (403ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (380ms)
+			ProcessInitializeOnLoadAttributes (965ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6675 unused Assets / (4.5 MB). Loaded Objects now: 7373.
+Memory consumption went from 169.5 MB to 165.0 MB.
+Total: 19.060200 ms (FindLiveObjects: 1.338300 ms CreateObjectMapping: 1.603100 ms MarkObjects: 10.944600 ms  DeleteObjects: 5.172000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40330.011510 seconds.
+  path: Assets/Tiled
+  artifactKey: Guid(2d50531fe87c10c44818df025f7b02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiled using Guid(2d50531fe87c10c44818df025f7b02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc3c155014cf11abf06796ae2666d5f9') in 0.0387722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.332579 seconds.
+  path: Assets/Tiled/blender.tsx
+  artifactKey: Guid(3b89b8dd97a9a9347a6f09b1c5ca6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiled/blender.tsx using Guid(3b89b8dd97a9a9347a6f09b1c5ca6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f60777931f75ca7e4f41594ad0a6c729') in 0.3075724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiled/firstmaptiles.tmx
+  artifactKey: Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiled/firstmaptiles.tmx using Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c14d57a32ee8320e87a10d611545b393') in 1.1672328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.945781 seconds.
+  path: Assets/Tiled/firstmaptiles.tmx
+  artifactKey: Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiled/firstmaptiles.tmx using Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5312caafd534a7052734644671a66938') in 0.0692049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 837.634990 seconds.
+  path: Assets/Tiled/firstmaptiles.tmx
+  artifactKey: Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiled/firstmaptiles.tmx using Guid(2a55e665b65658a44bc7fc91fdf21504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10bfbcf1438a2d93d4bb439033508fec') in 0.0754458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 9351.675875 seconds.
+  path: Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png
+  artifactKey: Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png using Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '803cd01b2add8967a10141fd8362637c') in 0.0632093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393171 seconds.
+  path: Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png
+  artifactKey: Guid(f7af46740b1964f4ab9520d050bdde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png using Guid(f7af46740b1964f4ab9520d050bdde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1ee732f5ae60c686cc561b6a4820048') in 0.0257344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.044 seconds
+Refreshing native plugins compatible for Editor in 6.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 3609ms
+	BeginReloadAssembly (536ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (132ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1262ms)
+		LoadAssemblies (1131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (343ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1203ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (357ms)
+			ProcessInitializeOnLoadAttributes (672ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 5.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6673 unused Assets / (4.7 MB). Loaded Objects now: 7412.
+Memory consumption went from 147.6 MB to 142.9 MB.
+Total: 14.079900 ms (FindLiveObjects: 1.001100 ms CreateObjectMapping: 0.879100 ms MarkObjects: 8.351900 ms  DeleteObjects: 3.846100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.738 seconds
+Refreshing native plugins compatible for Editor in 6.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 4144ms
+	BeginReloadAssembly (571ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (160ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (340ms)
+	LoadAllAssembliesAndSetupDomain (1673ms)
+		LoadAssemblies (1482ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (422ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1100ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6673 unused Assets / (4.5 MB). Loaded Objects now: 7414.
+Memory consumption went from 147.5 MB to 143.0 MB.
+Total: 13.746200 ms (FindLiveObjects: 0.950900 ms CreateObjectMapping: 1.499900 ms MarkObjects: 7.224400 ms  DeleteObjects: 4.069600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.802 seconds
+Refreshing native plugins compatible for Editor in 7.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.688 seconds
+Domain Reload Profiling: 3465ms
+	BeginReloadAssembly (411ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1189ms)
+		LoadAssemblies (996ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (368ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (371ms)
+			ProcessInitializeOnLoadAttributes (731ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 7.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6673 unused Assets / (4.1 MB). Loaded Objects now: 7416.
+Memory consumption went from 147.5 MB to 143.4 MB.
+Total: 19.112300 ms (FindLiveObjects: 1.864600 ms CreateObjectMapping: 2.281600 ms MarkObjects: 10.642400 ms  DeleteObjects: 4.322200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6663 unused Assets / (3.6 MB). Loaded Objects now: 7417.
+Memory consumption went from 147.6 MB to 144.1 MB.
+Total: 18.803700 ms (FindLiveObjects: 1.301700 ms CreateObjectMapping: 1.874100 ms MarkObjects: 11.678600 ms  DeleteObjects: 3.947500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.848 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.210 seconds
+Domain Reload Profiling: 3028ms
+	BeginReloadAssembly (424ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1240ms)
+		LoadAssemblies (1090ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (333ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6674 unused Assets / (4.0 MB). Loaded Objects now: 7419.
+Memory consumption went from 147.5 MB to 143.5 MB.
+Total: 13.084200 ms (FindLiveObjects: 0.991500 ms CreateObjectMapping: 0.797100 ms MarkObjects: 8.012700 ms  DeleteObjects: 3.281500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.091 seconds
+Refreshing native plugins compatible for Editor in 7.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.391 seconds
+Domain Reload Profiling: 3448ms
+	BeginReloadAssembly (450ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1412ms)
+		LoadAssemblies (1272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (341ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1066ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (331ms)
+			ProcessInitializeOnLoadAttributes (577ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 6.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6674 unused Assets / (5.0 MB). Loaded Objects now: 7421.
+Memory consumption went from 147.4 MB to 142.5 MB.
+Total: 17.354800 ms (FindLiveObjects: 0.959900 ms CreateObjectMapping: 1.481700 ms MarkObjects: 9.780000 ms  DeleteObjects: 5.131700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.002 seconds
+Refreshing native plugins compatible for Editor in 6.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 3263ms
+	BeginReloadAssembly (476ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1270ms)
+		LoadAssemblies (1176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (344ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1291ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (522ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 7.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6674 unused Assets / (3.6 MB). Loaded Objects now: 7423.
+Memory consumption went from 147.5 MB to 143.9 MB.
+Total: 16.663400 ms (FindLiveObjects: 1.613100 ms CreateObjectMapping: 1.751600 ms MarkObjects: 10.230100 ms  DeleteObjects: 3.067400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2886.052416 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.MonoMethodInfo:get_method_info <0x00075>
+	  at System.Reflection.MonoMethodInfo:GetMethodInfo <0x00042>
+	  at System.Reflection.MonoMethodInfo:GetReturnType <0x0002a>
+	  at System.Reflection.RuntimeMethodInfo:get_ReturnType <0x00022>
+	  at System.Reflection.RuntimePropertyInfo:get_PropertyType <0x00067>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:HasMaterialProperty <0x00017>
+	  at System.Linq.Enumerable:Any <0x00096>
+	  at <>c:<GetMaterialReferenceLookup>b__2_0 <0x0009a>
+	  at WhereEnumerableIterator`1:MoveNext <0x000ea>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialReferenceLookup <0x00478>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer <0x0006a>
+	  at <Module>:invoke_void_CustomObjectIndexerTarget_ObjectIndexer <0x00113>
+	  at UnityEditor.Search.ObjectIndexer:CallCustomIndexers <0x004c9>
+	  at UnityEditor.Search.ObjectIndexer:IndexCustomProperties <0x00132>
+	  at UnityEditor.Search.AssetIndexer:IndexSubAsset <0x003c2>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00b7a>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00163>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+ -> (artifact id: 'e57f7a6742acaa9947fe1fc507477f32') in 0.7223529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetDatabaseEx.cs
+  artifactKey: Guid(d162e04f77c08ab48b00cd7cd7cf152d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetDatabaseEx.cs using Guid(d162e04f77c08ab48b00cd7cd7cf152d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '646bb733463b605f69f3a1c94bfebf08') in 0.0309975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/PlayerMovement.cs
+  artifactKey: Guid(e43238d1d1a743c419ae2f01220c3e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Character/PlayerMovement.cs using Guid(e43238d1d1a743c419ae2f01220c3e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9562e6d14f38511b6c87e812c9446a3') in 0.01882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTileset.cs
+  artifactKey: Guid(83a849530c0449a4b8dc4000b60e4acd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTileset.cs using Guid(83a849530c0449a4b8dc4000b60e4acd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74fc22d30779d8271e24207d4e9d1bac') in 0.0171915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Helpers/UniqueNameifier.cs
+  artifactKey: Guid(995ac39948f0efc40a7cc75621ac6fcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Helpers/UniqueNameifier.cs using Guid(995ac39948f0efc40a7cc75621ac6fcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab6133404a2d36469d6ee4122e3c325c') in 0.0208211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetSettings.cs
+  artifactKey: Guid(87f5be8f60f26a3439d0e9f9e79d57d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetSettings.cs using Guid(87f5be8f60f26a3439d0e9f9e79d57d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bed4de3efc4dbbb7f3b1f7e13ec6169') in 0.0183522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/SuperObject.cs
+  artifactKey: Guid(dee00135f58173948b1f4e932384fb89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/SuperObject.cs using Guid(dee00135f58173948b1f4e932384fb89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30b4feb7e3f64c3761e984e72a17751c') in 0.0199671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef
+  artifactKey: Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef using Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd55fa1a2693f37e75208ed668060560c') in 0.017916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbef32c2206a614b84b416cb4a5d795a') in 0.0881067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/SuperMap.cs
+  artifactKey: Guid(9afdeaae1bb27d6418d5d8cd5165faed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/SuperMap.cs using Guid(9afdeaae1bb27d6418d5d8cd5165faed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb038cc60a34c3f162450ba06e67e763') in 0.0134189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporter.cs
+  artifactKey: Guid(997c350d479469b40a6a61dab58acbf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporter.cs using Guid(997c350d479469b40a6a61dab58acbf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efd6cbee7adedc5d8619bdb2e7fb20a2') in 0.0164221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Config/SuperTiled2Unity_Config.cs
+  artifactKey: Guid(73bf4b0030257904199f741dbf1abcdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Config/SuperTiled2Unity_Config.cs using Guid(73bf4b0030257904199f741dbf1abcdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fcd129200780f5d45a6b47cd1e0aeb5') in 0.0162111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperTileExtensions.cs
+  artifactKey: Guid(0fafb9d96d028914e9ebc2702e268cd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperTileExtensions.cs using Guid(0fafb9d96d028914e9ebc2702e268cd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c3bf0cfc9a7a83f2483c28697e97357') in 0.0214847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporterEditor.cs
+  artifactKey: Guid(11785ba3d6fd01e40bc425b04910de97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporterEditor.cs using Guid(11785ba3d6fd01e40bc425b04910de97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acdc4657eb884a150e459913ad248f28') in 0.016803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporterEditor.cs
+  artifactKey: Guid(8f8fe4d5047b6af429cc3337027f12ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporterEditor.cs using Guid(8f8fe4d5047b6af429cc3337027f12ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9912692dfaef4b8651607f2e42222e2') in 0.0228787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporter.cs
+  artifactKey: Guid(4426ef1bd8d94d242b03d3dc2d544b32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporter.cs using Guid(4426ef1bd8d94d242b03d3dc2d544b32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a2e5c89d032fdeff28979401ad88938') in 0.0210014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/RectUtil.cs
+  artifactKey: Guid(baab7f7c1aac1d34ebe570e8e97b1840) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/RectUtil.cs using Guid(baab7f7c1aac1d34ebe570e8e97b1840) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '542d51e580700a2f034c0602952f34fd') in 0.0181213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporter.cs
+  artifactKey: Guid(c6b19dac32d07094ca0a4ffc902a36c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporter.cs using Guid(c6b19dac32d07094ca0a4ffc902a36c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '920ba9119c80e7c484fbb9091d50d449') in 0.0192705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/CustomProperty.cs
+  artifactKey: Guid(daf466123d223cb4dab652fb5c136636) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/CustomProperty.cs using Guid(daf466123d223cb4dab652fb5c136636) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9840d312e5af27cd975bddaba262b014') in 0.0170671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperLayerLoader.cs
+  artifactKey: Guid(fab5b5345df240a4c977c049aa5d1b5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperLayerLoader.cs using Guid(fab5b5345df240a4c977c049aa5d1b5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '890a5ce03c5917e2fb466ec599c713c1') in 0.0157316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/AssetDependencies.cs
+  artifactKey: Guid(cc91e788c0b3e5c418694a8b93ab14a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/AssetDependencies.cs using Guid(cc91e788c0b3e5c418694a8b93ab14a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ea6be715052ff5066f194b6e2ad1369') in 0.0169065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb13116f8255caf79e7aae14b65e780a') in 0.0171284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png
+  artifactKey: Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png using Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51c66b478f09af513ded962596007f3') in 0.0849445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiled/Rules/autotilerules.tmx
+  artifactKey: Guid(4804b54fb2843d04ea00cc66232f580d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiled/Rules/autotilerules.tmx using Guid(4804b54fb2843d04ea00cc66232f580d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21d1aee367e3272ebb3101512570c14e') in 0.0533469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/TiledAssetDependencies.cs
+  artifactKey: Guid(f0f2386fad48a8f4d855c5c0ede7c18c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/TiledAssetDependencies.cs using Guid(f0f2386fad48a8f4d855c5c0ede7c18c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b272aa64eb7987409767f18af6ced6c') in 0.020091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperImageLayerLoader.cs
+  artifactKey: Guid(52e94c587bfda334cbca886bec660974) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperImageLayerLoader.cs using Guid(52e94c587bfda334cbca886bec660974) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d9cafff2898ef7951cf6bb8dc8529d7') in 0.0150219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/SuperTileLayer.cs
+  artifactKey: Guid(6625a2c215475fa44b1c76c4ae978948) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/SuperTileLayer.cs using Guid(6625a2c215475fa44b1c76c4ae978948) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '963e41db8bca63289a6d3f83ea2253d9') in 0.0145796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/XmlExtensions.cs
+  artifactKey: Guid(4daa0d289a9eb0847bbd4aeaec3e7584) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/XmlExtensions.cs using Guid(4daa0d289a9eb0847bbd4aeaec3e7584) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95274d0cfdb62215e3b7fcfd0f263a3e') in 0.0143619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(b77a8a3f25ef76e4f9d952614697a3d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Extensions/GameObjectExtensions.cs using Guid(b77a8a3f25ef76e4f9d952614697a3d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '316a42c839d3e4c1394fcde3bf1fd92c') in 0.0204185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporterEditor.cs
+  artifactKey: Guid(78bd6afa7149b704c8282d996b027a81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporterEditor.cs using Guid(78bd6afa7149b704c8282d996b027a81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce3df189c9c919228d9d6a7f754d08aa') in 0.0139338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MaxRectsBinPack.cs
+  artifactKey: Guid(4f7ab35f08afa904da810d42d45bf2e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MaxRectsBinPack.cs using Guid(4f7ab35f08afa904da810d42d45bf2e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fbb98520a97c708c551e80e579939f7') in 0.0195016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionBuilder.cs
+  artifactKey: Guid(32777aadec3623d4b97d4a3ab62fd92f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionBuilder.cs using Guid(32777aadec3623d4b97d4a3ab62fd92f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bae2c8a3a2cf94d9e257cd8babc0bfa') in 0.0166951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/CustomImporterException.cs
+  artifactKey: Guid(ef576cb33d2bff74da4363baa98476db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/CustomImporterException.cs using Guid(ef576cb33d2bff74da4363baa98476db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d55e8f78bc17b8f1409da5b3131ae4') in 0.0170856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporter.cs
+  artifactKey: Guid(a888f767b6df9e34b874a40c13fdbf58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporter.cs using Guid(a888f767b6df9e34b874a40c13fdbf58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd34849dc79179f583e2e5e70d3e8e275') in 0.0153989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Geom.cs
+  artifactKey: Guid(c42c9eb9b131da7479aca40802a962b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Geom.cs using Guid(c42c9eb9b131da7479aca40802a962b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca2342896c2255bcfe31720a19501e2d') in 0.0168603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetMap.cs
+  artifactKey: Guid(7b9230422fd3f0b4f84aeed3552983e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetMap.cs using Guid(7b9230422fd3f0b4f84aeed3552983e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe8c6720a83f94fdde76e74f6172d00a') in 0.0156511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MultiValueDictionary.cs
+  artifactKey: Guid(7a4007b337ab2d242aefb806d1534b68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MultiValueDictionary.cs using Guid(7a4007b337ab2d242aefb806d1534b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcbc24f0f1b3b235bd17d5401229bfc0') in 0.0202034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Mesh.cs
+  artifactKey: Guid(895574c79cf1f4140acf071b46a62b80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Mesh.cs using Guid(895574c79cf1f4140acf071b46a62b80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca3329a925a9241182e895181e37907e') in 0.0193472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperTileLayerLoader.cs
+  artifactKey: Guid(4100ed00b551e2c45aa3cab854a3b513) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperTileLayerLoader.cs using Guid(4100ed00b551e2c45aa3cab854a3b513) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '777f1f98a7ee221078b8182fb8c545e1') in 0.0221064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Extensions/SuperTileExtensions.cs
+  artifactKey: Guid(7c12df8ebeeaaba4bb8d835232926ae5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Extensions/SuperTileExtensions.cs using Guid(7c12df8ebeeaaba4bb8d835232926ae5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '813d391b246898e55f5929d40bbf984d') in 0.0157047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AtlasBuilder.cs
+  artifactKey: Guid(57bef66ca809c6c4a87a88fe5a51247d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AtlasBuilder.cs using Guid(57bef66ca809c6c4a87a88fe5a51247d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7ec5a0bf9f36b3e32d90780d2aac5d9') in 0.0163218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CompositeCollider2DExtensions.cs
+  artifactKey: Guid(e8a1e4dd208e2fe499c0fc5c875ccd45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CompositeCollider2DExtensions.cs using Guid(e8a1e4dd208e2fe499c0fc5c875ccd45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b036186774f3115e45b78b69b08e3e7b') in 0.0174095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Properties/CustomObjectType.cs
+  artifactKey: Guid(0d6063cd2a5219f448ae88f3b5dfb243) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Properties/CustomObjectType.cs using Guid(0d6063cd2a5219f448ae88f3b5dfb243) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f250a0cb0ea4f23ec66cf2eee27f787e') in 0.0197215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryOrthogonal.cs
+  artifactKey: Guid(55d9524a7f13c664f925b8695cd8402a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryOrthogonal.cs using Guid(55d9524a7f13c664f925b8695cd8402a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1fd06841bdb3328f2f79283045f557a') in 0.0174107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Extensions/CustomPropertyExtensions.cs
+  artifactKey: Guid(9e174054d7cca364ba225c9011e67b0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Extensions/CustomPropertyExtensions.cs using Guid(9e174054d7cca364ba225c9011e67b0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b0f2746515c5173f64c4335d6ff0a74') in 0.0211206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsEditor.cs
+  artifactKey: Guid(bc66ce480f7d8ca4890523ccd754c6cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsEditor.cs using Guid(bc66ce480f7d8ca4890523ccd754c6cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6cdfdf8548e20da696ca6a6170a2351') in 0.0162428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Helpers/NamedColors.cs
+  artifactKey: Guid(a31a4a8fbeb72ce48be0f17a6b54d5a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Helpers/NamedColors.cs using Guid(a31a4a8fbeb72ce48be0f17a6b54d5a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6bbd8009201484b88c936be25b3329f') in 0.0188271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedBackgroundColor.cs
+  artifactKey: Guid(0c1abf941a68a144184b329cdc63c678) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedBackgroundColor.cs using Guid(0c1abf941a68a144184b329cdc63c678) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3451b9c57309ad6c3fd03d95490143d6') in 0.0170105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.cs
+  artifactKey: Guid(1fa25d03934ea624a82bf2fcee6f0873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.cs using Guid(1fa25d03934ea624a82bf2fcee6f0873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '794e8f6cf83d7e1b953d38cd5f6693e8') in 0.0156772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiled/blender.tsx
+  artifactKey: Guid(3b89b8dd97a9a9347a6f09b1c5ca6337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiled/blender.tsx using Guid(3b89b8dd97a9a9347a6f09b1c5ca6337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4049cfc5f4243eb4edd13ee01bbcc9e8') in 0.1689568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 179
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetWorld.cs
+  artifactKey: Guid(d6198d56f2f7d004fae311f2554dccd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetWorld.cs using Guid(d6198d56f2f7d004fae311f2554dccd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cdbe41304bf43fdaa3236841c158cd8') in 0.0254618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/SuperTiled2UnityEditor.asmdef
+  artifactKey: Guid(18495c2ae79d2b14aa9ff8cb6556ffd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/SuperTiled2UnityEditor.asmdef using Guid(18495c2ae79d2b14aa9ff8cb6556ffd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '493b9b2409d0cd803d58f0becd0fec5e') in 0.0201697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/SuperImageLayer.cs
+  artifactKey: Guid(d56977c501f28174fbe67cb69197cddd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/SuperImageLayer.cs using Guid(d56977c501f28174fbe67cb69197cddd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96c84265fda805790f2e3c49f44db7ed') in 0.0156008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Icons/tiled-settings-icon-0x1badd00d.png
+  artifactKey: Guid(0016a15d29ea344499f092ce94b25a68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Icons/tiled-settings-icon-0x1badd00d.png using Guid(0016a15d29ea344499f092ce94b25a68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51249cec21a1a3da16643578bf1fa561') in 0.0291364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(4964656a27e3d1a4e95232b9e1080913) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/GameObjectExtensions.cs using Guid(4964656a27e3d1a4e95232b9e1080913) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0effe125197d934cc231b0651a3d9ad') in 0.0159615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Extensions/StringExtensions.cs
+  artifactKey: Guid(e034c09b01f17df41abf079d5b4cf400) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Extensions/StringExtensions.cs using Guid(e034c09b01f17df41abf079d5b4cf400) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4a287b478ab913e10d2a9a15d21d7ef') in 0.0132424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolylineReduction.cs
+  artifactKey: Guid(1fd845b7a7d07af4ca4aad8eb4ec21d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolylineReduction.cs using Guid(1fd845b7a7d07af4ca4aad8eb4ec21d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f3e7a63bff5fcf6328930ddaeb99257') in 0.0179883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperGroupLayerLoader.cs
+  artifactKey: Guid(7519185f6242f80418c1f98739b75f79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperGroupLayerLoader.cs using Guid(7519185f6242f80418c1f98739b75f79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f0523db8b4b6e12b3d5cd9437bed3e9') in 0.0186106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png
+  artifactKey: Guid(f7af46740b1964f4ab9520d050bdde12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png using Guid(f7af46740b1964f4ab9520d050bdde12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '929020ada87fbd472ea919ee116ad003') in 0.0247466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AssetPath.cs
+  artifactKey: Guid(5d967b1ed0470b24d8fb429504a3632b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AssetPath.cs using Guid(5d967b1ed0470b24d8fb429504a3632b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a2372650fc8daf3408e5adf645a2740') in 0.0143016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/AppDomainExtensions.cs
+  artifactKey: Guid(bf2900f67afa63a4cafd70a0841a9bf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/AppDomainExtensions.cs using Guid(bf2900f67afa63a4cafd70a0841a9bf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e018e375edcf6ac9968b07da8f783da9') in 0.0151298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/AnimationBuilder.cs
+  artifactKey: Guid(aa74cfd34bf503844a16a6affed8d642) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/AnimationBuilder.cs using Guid(aa74cfd34bf503844a16a6affed8d642) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8291c81ebbb985a13baf1268adaf939') in 0.0186382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiled/firstgametiles.tiled-project
+  artifactKey: Guid(ffbd641d021ca5a4eb65419f53f3a5fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiled/firstgametiles.tiled-project using Guid(ffbd641d021ca5a4eb65419f53f3a5fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f68cd88edd3d6b92c8f573695586336') in 0.0148685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/SuperTileset.cs
+  artifactKey: Guid(5a03e13c5227d20419a9bbf5f864fd94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/SuperTileset.cs using Guid(5a03e13c5227d20419a9bbf5f864fd94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dafb40cab76b832e649d80438fe296b9') in 0.0160533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygon.cs
+  artifactKey: Guid(2b962a836d2d3af4ca6dc30fd266397b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygon.cs using Guid(2b962a836d2d3af4ca6dc30fd266397b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10c86cfb3f33f8208d19ecb682c539fc') in 0.0139587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperTiled2Unity/Icons/tx-file-icon-0x1badd00d.png
+  artifactKey: Guid(8917742d33b8e744f91ec41c4dbb44bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Icons/tx-file-icon-0x1badd00d.png using Guid(8917742d33b8e744f91ec41c4dbb44bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1579610ffc1f31316190888110de421') in 0.0248741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperMapExtensions.cs
+  artifactKey: Guid(68d3b5d052bf8454a97430d71e1e2114) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperMapExtensions.cs using Guid(68d3b5d052bf8454a97430d71e1e2114) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '263e5f8d530f43de760164971e464e3b') in 0.015512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Dict.cs
+  artifactKey: Guid(53df28af8cabc3442afe3fa83ca94731) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Dict.cs using Guid(53df28af8cabc3442afe3fa83ca94731) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b2afa7990ff60186a6558b6f0d24847') in 0.0144959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedIndent.cs
+  artifactKey: Guid(c8a44729ffe16324ca7e0f047dc5e079) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedIndent.cs using Guid(c8a44729ffe16324ca7e0f047dc5e079) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da5dac660c659ba4fd5f0e19f45e8ef6') in 0.0150515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64ba89106c02dded331d6a668636e55e') in 0.0467256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Math/MatrixUtils.cs
+  artifactKey: Guid(d422f78efde64c346807de8aceedc871) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Math/MatrixUtils.cs using Guid(d422f78efde64c346807de8aceedc871) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35a3cbc35bf54775585bbf3dd8974639') in 0.0160848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/StringConstants.cs
+  artifactKey: Guid(6327b45087f5beb4da4569eddb17253d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/StringConstants.cs using Guid(6327b45087f5beb4da4569eddb17253d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4f4d9b85a4604ad66f6f93aac689bd1') in 0.016015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImportContext.cs
+  artifactKey: Guid(5c73831093080f34282b5e25dbe4b498) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImportContext.cs using Guid(5c73831093080f34282b5e25dbe4b498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd03bedf67820f8b159ea59a07f66330b') in 0.0168335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Triangulator.cs
+  artifactKey: Guid(fa0287b5b3e3007418b2cad3c6b8b6ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Triangulator.cs using Guid(fa0287b5b3e3007418b2cad3c6b8b6ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d49c9186e7bcd9f2e3b675f262c2a0f') in 0.0169004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/CollisionShapeType.cs
+  artifactKey: Guid(eada5bcf5cb1b88449a085d2773c1e5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/CollisionShapeType.cs using Guid(eada5bcf5cb1b88449a085d2773c1e5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45dbd642d7936f5bf3e620fb7ef47133') in 0.017549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/idle/Sprite-0001.png
+  artifactKey: Guid(8a2c3802e8377784aa0fdcc3bc49c0d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Character/idle/Sprite-0001.png using Guid(8a2c3802e8377784aa0fdcc3bc49c0d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b45864da7c7b07fcdd6859d67441185f') in 0.0330229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/CompositionPolygon.cs
+  artifactKey: Guid(a0cd0461593f4314a9a6043987d2e95a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/CompositionPolygon.cs using Guid(a0cd0461593f4314a9a6043987d2e95a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaf513b9bb792a8b576537843418258d') in 0.0155216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdgeGroup.cs
+  artifactKey: Guid(057a306415f72534fa02246cf5b32535) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdgeGroup.cs using Guid(057a306415f72534fa02246cf5b32535) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3764cb4156955cf5b5251b27cb4d133d') in 0.0150493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/DrawOrder.cs
+  artifactKey: Guid(7cfa0af538223994d88db7bc74b459e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/DrawOrder.cs using Guid(7cfa0af538223994d88db7bc74b459e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b221fb198f46db40a5a5d1f787e105a7') in 0.0145452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Settings/LayerMaterialMatch.cs
+  artifactKey: Guid(af7db2f22a062814992acbee2628e7ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Settings/LayerMaterialMatch.cs using Guid(af7db2f22a062814992acbee2628e7ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '984c3383592ca1e527bbf5e6d60ecf2f') in 0.0175599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs
+  artifactKey: Guid(a5375898aae950549a1f40d3bd696272) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs using Guid(a5375898aae950549a1f40d3bd696272) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dbcbce482db1fdabbb5e5329f73848f') in 0.0159044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdge.cs
+  artifactKey: Guid(288cf3ab427702b4187be0f66266c5a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdge.cs using Guid(288cf3ab427702b4187be0f66266c5a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c67834d9a525903f589123ed90b8cdf') in 0.0155009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/ObjectTemplate.cs
+  artifactKey: Guid(39aff3970f857ec4a8823c0291cba854) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/ObjectTemplate.cs using Guid(39aff3970f857ec4a8823c0291cba854) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef7050df94a657933922e9597dff3272') in 0.0193732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperTexturePostprocessor.cs
+  artifactKey: Guid(56b6d48e2f3d90d47b9d0b396347b6e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperTexturePostprocessor.cs using Guid(56b6d48e2f3d90d47b9d0b396347b6e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f50158f90959a195a38a68b4f5eb885f') in 0.0156168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Scripts/ObjectAlignment.cs
+  artifactKey: Guid(16208a0aba30c484ab87f1d1a0e7a963) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SuperTiled2Unity/Scripts/ObjectAlignment.cs using Guid(16208a0aba30c484ab87f1d1a0e7a963) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '503ae2704515910a76874d4ef33e1703') in 0.0147617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
