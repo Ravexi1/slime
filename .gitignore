@@ -1,0 +1,19 @@
+[# User-specific files]
+UserSettings/
+
+[# Windows]
+Thumbs.db
+ehthumbs.db
+
+[# macOS]
+.DS_Store
+
+[# Unity]
+Temp/
+Obj/
+.vs/
+.vscode/
+.idea/
+Library/
+Build/
+BuildPlayer/
