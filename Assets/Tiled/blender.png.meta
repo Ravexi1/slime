@@ -247,12 +247,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       blender_0: -8414445453311855943
       blender_1: 7427943439853533639
       blender_2: -4087654933776889768
       blender_3: -258828060253417934
       blender_4: 492107265541575013
+=======
+    nameFileIdTable: {}
+>>>>>>> eed7ce990af09e5e050a4843342fac4ca5bba457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
